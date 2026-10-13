@@ -1,0 +1,25 @@
+# Entorno Virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Variables de entorno secretas (¡MUY IMPORTANTE!)
+.env
+
+# Base de datos local (SQLite)
+*.sqlite3
+
+# Archivos de caché de Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del editor de código (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
